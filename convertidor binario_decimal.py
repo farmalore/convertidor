@@ -37,7 +37,7 @@ opcion = input("Elige una opcion (1 o 2):")
 if opcion == "1": #si la opcion elegida por el usuario es el "1" se ejecutara esta parte
     binario = input("Ingrese su numero en binario: ") #Se le pide al usuario ingresar un numero binario
     decimal = binario_a_decimal(binario) #llamada a la funcion binario_a_decimal para convertirlo en decimal(este calculo le pedi ayuda a la ia)
-    print(f"El nuemro Binario {binario} en Decimal es: {decimal}") #imprime el resultado
+    print(f"El numero Binario {binario} en Decimal es: {decimal}") #imprime el resultado
 
 elif opcion == "2": #si la opcion elegida por el usuario es el "2" se ejecutara esta parte
     decimal = int(input("Ingrese su numero en decimal: ")) #se le pide al usuario ingresar un numero en decimal
